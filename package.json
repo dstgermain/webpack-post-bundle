@@ -1,0 +1,24 @@
+{
+  "name": "webpack-post-bundle",
+  "version": "1.0.0",
+  "description": "Task runner for webpack post bundle hook",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dstgermain/webpack-post-bundle.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "eslint": "eslint ./ -c .eslintrc.js"
+  },
+  "author": "Daniel St-Germain",
+  "devDependencies": {
+    "cli-color": "^1.1.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-config-ctct": "^1.1.0",
+    "eslint-plugin-import": "^1.8.1"
+  }
+}
